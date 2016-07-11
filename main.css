@@ -5,9 +5,53 @@ html {
     padding: 2em;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body {
+    background-color: rgba(244, 113, 113, 0.99);
+}
+/*Fortune Cookie */
 .fortune-cookie-saying-wrapper {
-    border: 1px solid #666;
     padding: 1em;
     margin: 1em;
+    background-image: url('fortune-cookie2.png');
+    background-size: 700px; 
+    height: 400px; 
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+/*previous fortunes */
+ul {
+    list-style: none;
+}
+li {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+img {
+    size: 100px; 
+}
+/*fortunes */
+p#fortune-cookie-text {
+    margin-top: 250px; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px; 
+    text-align: center;
+}
+/*Heading styling */
+h1, h2 {
+    font-family: 'Satisfy', cursive; 
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px; 
+}
+/*Button styling */
+button {
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 20px 50px;
+  background-color: rgba(255, 200, 112, 1);
+  font-size: 15px; 
 }
